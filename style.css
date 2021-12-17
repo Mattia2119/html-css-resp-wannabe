@@ -75,32 +75,62 @@ img {
 /*--Media Query--*/
 
 @media (max-width: 419px) {
+
+  .row {
+    margin-top: 0px;
+  }
     
   #lezioni .row>.left {
-    float: none;
-    margin: auto;
+    width: 100%;
+    background-color: lightyellow;
+  }
+
+  #lezioni h1 {
+    background-color: lightyellow;
+    margin: 0;
+    padding-bottom: 20px;
   }
 
   #lezioni .row>.right {
-    float: none;
-    margin: auto;
+    width: 100%;
+    background-color: lightyellow;
+    padding-bottom: 20px;
   }
 
   #steps .row>.left {
-    float: none;
-    margin: auto;
+    width: 100%;
     margin-bottom: 30px;
   }
 
    #steps .row>.central{
-     float: none;
-     margin: auto;
+     width: 100%;
      margin-bottom: 30px;
    }
 
    #steps .row>.right {
-     float: none;
-     margin: auto;
+     width: 100%;
      margin-bottom: 30px;
+   }
+
+   #why h1 {
+     background-color: lightyellow;
+     margin: 0px;
+     padding: 20px 0px;
+   }
+
+   #why .row>.first {
+     background-color: lightyellow;
+     margin-top: 0px;
+     padding-top: 20px;
+   }
+   #why .row>.second {
+     background-color: lightyellow;
+     margin-top: 0px;
+     padding-top: 20px;
+   }
+   #why .row>.third {
+     background-color: lightyellow;
+     margin-top: 0px;
+     padding-top: 20px;
    }
 }
